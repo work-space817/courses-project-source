@@ -1,0 +1,208 @@
+.first-section-contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+
+.get-in-touch {
+  margin-top: 128px;
+  width: 1280px;
+  display: flex;
+  gap: 11%;
+  color: #1e1b1b;
+}
+
+.get-in-touch-left {
+  width: 47%;
+
+  >h1 {
+    margin-top: 0;
+    font-weight: 800;
+    font-size: 74px;
+    line-height: 84px;
+    letter-spacing: -0.03em;
+  }
+}
+
+.get-in-touch-input {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: #1e1b1b;
+  padding-bottom: 32px;
+  width: 100%;
+
+  input {
+    border: none;
+    height: 72px;
+    background: #f2f2f2;
+    padding-left: 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    &::placeholder {
+      font-weight: 600;
+      line-height: 28px;
+      color: #1e1b1b;
+    }
+  }
+}
+
+.btn-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ff6433;
+  border-radius: 12px;
+  border: none;
+  width: 203px;
+  height: 64px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+  line-height: 32px;
+
+  &:hover {
+    background: #cf4e27;
+  }
+
+  &:active {
+    scale: 0.95;
+    opacity: 0.95;
+  }
+}
+
+.get-in-touch-right {
+  position: relative;
+  top: 63px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 42%;
+  gap: 32px;
+
+  p {
+    &:first-child {
+      margin: 0;
+      font-weight: 600;
+      line-height: 28px;
+      opacity: 0.7;
+    }
+
+    &:last-child {
+      margin: 0;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 36px;
+      letter-spacing: -0.03em;
+    }
+  }
+}
+
+.second-section-contact {
+  position: relative;
+  transform: translateY(30%);
+  width: 1280px;
+  height: 512px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  >img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+}
+
+.third-section-contact {
+  width: 100%;
+  height: 448px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/picture/contact/background.png);
+  background-position: center;
+}
+
+@media (max-width: 1305px) {
+  .get-in-touch {
+    width: 84%;
+    gap: 7%;
+  }
+
+  .get-in-touch-right {
+    width: 46%;
+  }
+
+  .second-section-contact {
+    width: 84%;
+    height: 100%;
+
+    >img {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .get-in-touch-left {
+    >h1 {
+      font-size: 60px;
+      line-height: 64px;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .get-in-touch {
+    flex-direction: column;
+    align-items: center;
+  }
+  .get-in-touch .btn-1{
+    width: 100%;
+  }
+
+  .get-in-touch-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .get-in-touch-right {
+    margin-top: 32px;
+    top: 0;
+    width: 60%;
+  }
+
+  .third-section-contact {
+    height: 348px;
+  }
+}
+
+@media (max-width: 700px) {
+  .third-section-contact {
+    display: none;
+  }
+
+  .second-section-contact {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+@media (max-width: 499px) {
+  .get-in-touch-right {
+    width: 100%;
+  }
+
+  .second-section-contact {
+    height: 250px;
+  }
+}

@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+  color: black;
+}
+
+*,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: red;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: rgb(43, 2, 43); */
+  background-color: #fff;
+}
