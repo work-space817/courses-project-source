@@ -113,8 +113,6 @@
   align-items: center;
 
   >img {
-    width: 100%;
-    height: 100%;
     cursor: pointer;
   }
 }
@@ -205,4 +203,8 @@
   .second-section-contact {
     height: 250px;
   }
+    .get-in-touch-left>h1 {
+      font-size: 44px;
+      line-height: 50px;
+    }
 }
